@@ -18,6 +18,8 @@ jobs:
           fetch-depth: 0
       - name: Materialize StoryIP Forge v0.17.0
         shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
           cat .bootstrap/part-* > /tmp/storyip-forge.b64
@@ -29,3 +31,21 @@ jobs:
           git add -A
           git commit -m 'release: StoryIP Forge v0.17.0'
           git push origin HEAD:main
+          git tag -f v0.17.0
+          git push origin v0.17.0 --force
+          cat > /tmp/release-notes.md <<'EOF'
+          # StoryIP Forge v0.17.0
+
+          首个公开版本。将“授权小说 × 目标 IP”内容改编流程泛化为可复核、可扩展的 AI 漫剧/短视频生产工作流。
+
+          - StoryIP Forge 通用品牌与 Skill 路径
+          - 小说全文故事解剖与 Story Gate
+          - IP knowledge / asset manifest / asset registry 三类外部资料入口
+          - Episode Package、分镜、生成编排、Timeline 与成片链路
+          - 精确局部失效与独立质量审查
+          - 203 项确定性回归测试
+          - 中文 GitHub 首页、架构图、工作流图和贡献模板
+
+          本仓库不包含任何第三方小说正文、IP 设定库、官方素材或品牌资产。
+          EOF
+          gh release create v0.17.0 --title 'StoryIP Forge v0.17.0' --notes-file /tmp/release-notes.md
