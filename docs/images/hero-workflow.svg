@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#F7FAFF"/><stop offset="100%" stop-color="#EEF3FF"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2F6BFF"/><stop offset="100%" stop-color="#7C4DFF"/></linearGradient>
+    <style>.t{font-family:Arial,'PingFang SC','Microsoft YaHei',sans-serif;fill:#0F172A}.sub{font-size:28px;fill:#334155}.title{font-size:66px;font-weight:700}.h2{font-size:30px;font-weight:700}.p{font-size:22px;fill:#475569}.pill{font-size:22px;font-weight:700;fill:#2F6BFF}</style>
+  </defs>
+  <rect width="1600" height="760" fill="url(#bg)" rx="28"/>
+  <text x="800" y="90" text-anchor="middle" class="t title">StoryIP Forge</text>
+  <text x="800" y="138" text-anchor="middle" class="t sub">小说 × IP 联名 AI 漫剧生产工作流</text>
+  <text x="800" y="182" text-anchor="middle" class="t p">把授权小说、目标 IP 知识与资产，组织成可复核、可生成、可剪辑的连续生产链</text>
+  <rect x="50" y="250" width="250" height="300" rx="28" fill="#FFF" stroke="#D6E3FF"/><text x="175" y="320" text-anchor="middle" class="t h2">01 源故事</text><text x="175" y="375" text-anchor="middle" class="t p">授权小说 / 原始故事</text><text x="175" y="410" text-anchor="middle" class="t p">主线、人物、冲突、</text><text x="175" y="442" text-anchor="middle" class="t p">因果与关键场面</text><rect x="98" y="470" width="154" height="42" rx="21" fill="#ECF3FF"/><text x="175" y="497" text-anchor="middle" class="t pill">Story Input</text>
+  <path d="M315 400 L370 400" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/><polygon points="370,400 348,388 348,412" fill="#5A62FF"/>
+  <rect x="390" y="250" width="310" height="300" rx="28" fill="#FFF" stroke="#D6E3FF"/><text x="545" y="320" text-anchor="middle" class="t h2">02 IP 融合</text><text x="545" y="375" text-anchor="middle" class="t p">把规则、身份、空间、资源</text><text x="545" y="407" text-anchor="middle" class="t p">与限制写进故事因果</text><circle cx="545" cy="470" r="68" fill="#F2F5FF" stroke="#CAD6FF"/><text x="545" y="465" text-anchor="middle" class="t h2">游戏 / 动漫</text><text x="545" y="500" text-anchor="middle" class="t p">影视 / 品牌 / 原创宇宙</text>
+  <path d="M715 400 L770 400" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/><polygon points="770,400 748,388 748,412" fill="#5A62FF"/>
+  <rect x="790" y="250" width="250" height="300" rx="28" fill="#FFF" stroke="#D6E3FF"/><text x="915" y="320" text-anchor="middle" class="t h2">03 剧本 / 分镜</text><text x="915" y="375" text-anchor="middle" class="t p">分集设计</text><text x="915" y="407" text-anchor="middle" class="t p">正式剧本</text><text x="915" y="439" text-anchor="middle" class="t p">shots.jsonl</text><rect x="838" y="470" width="154" height="42" rx="21" fill="#F4F1FF"/><text x="915" y="497" text-anchor="middle" class="t pill">Review Gate</text>
+  <path d="M1055 400 L1110 400" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/><polygon points="1110,400 1088,388 1088,412" fill="#5A62FF"/>
+  <rect x="1130" y="250" width="200" height="300" rx="28" fill="#FFF" stroke="#D6E3FF"/><text x="1230" y="320" text-anchor="middle" class="t h2">04 生成 / 合成</text><text x="1230" y="375" text-anchor="middle" class="t p">预告样片验证</text><text x="1230" y="407" text-anchor="middle" class="t p">批量生成</text><text x="1230" y="439" text-anchor="middle" class="t p">Timeline 合成</text><text x="1230" y="471" text-anchor="middle" class="t p">KEEP / TRIM / REDO</text>
+  <path d="M1345 400 L1400 400" stroke="url(#accent)" stroke-width="8" stroke-linecap="round"/><polygon points="1400,400 1378,388 1378,412" fill="#5A62FF"/>
+  <rect x="1420" y="250" width="130" height="300" rx="28" fill="#FFF" stroke="#D6E3FF"/><text x="1485" y="320" text-anchor="middle" class="t h2">05 成片</text><text x="1485" y="385" text-anchor="middle" class="t p">final.mp4</text><text x="1485" y="425" text-anchor="middle" class="t p">Final Review</text>
+  <rect x="160" y="620" width="1280" height="72" rx="36" fill="#FFF" stroke="#D6E3FF"/><text x="300" y="665" text-anchor="middle" class="t h2">质量优先</text><text x="600" y="665" text-anchor="middle" class="t h2">可复核</text><text x="900" y="665" text-anchor="middle" class="t h2">可扩展</text><text x="1200" y="665" text-anchor="middle" class="t h2">适配多类目标 IP</text>
+</svg>
