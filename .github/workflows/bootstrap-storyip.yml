@@ -23,9 +23,9 @@ jobs:
         run: |
           set -euo pipefail
           cat .bootstrap/part-* > /tmp/storyip-forge.b64
-          base64 -d /tmp/storyip-forge.b64 > /tmp/storyip-forge.tar.gz
+          base64 -d /tmp/storyip-forge.b64 > /tmp/storyip-forge.tar.bz2
           find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
-          tar -xzf /tmp/storyip-forge.tar.gz -C .
+          tar -xjf /tmp/storyip-forge.tar.bz2 -C .
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add -A
@@ -44,7 +44,7 @@ jobs:
           - Episode Package、分镜、生成编排、Timeline 与成片链路
           - 精确局部失效与独立质量审查
           - 203 项确定性回归测试
-          - 中文 GitHub 首页、架构图、工作流图和贡献模板
+          - 中文 GitHub 首页、Mermaid 工作流图、系统架构图和贡献模板
 
           本仓库不包含任何第三方小说正文、IP 设定库、官方素材或品牌资产。
           EOF
