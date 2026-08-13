@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="860" viewBox="0 0 1600 860">
+  <defs><style>.t{font-family:Arial,'PingFang SC','Microsoft YaHei',sans-serif;fill:#0F172A}.title{font-size:60px;font-weight:700}.sub{font-size:24px;fill:#475569}.box{fill:#FFF;stroke:#D6E3FF;stroke-width:2}.n{font-size:28px;font-weight:700;fill:#2563EB}.p{font-size:24px;font-weight:700}.tag{font-size:22px;font-weight:700}</style></defs>
+  <rect width="1600" height="860" rx="28" fill="#F7FAFF"/>
+  <text x="800" y="90" text-anchor="middle" class="t title">核心工作流 / Core Workflow</text><text x="800" y="132" text-anchor="middle" class="t sub">从项目设定到 final.mp4 的最小生产链</text>
+  <g transform="translate(70,210)"><rect class="box" width="220" height="180" rx="24"/><text x="110" y="54" text-anchor="middle" class="t n">1</text><text x="110" y="105" text-anchor="middle" class="t p">项目设定</text></g>
+  <g transform="translate(330,210)"><rect class="box" width="220" height="180" rx="24"/><text x="110" y="54" text-anchor="middle" class="t n">2</text><text x="110" y="105" text-anchor="middle" class="t p">全文故事解剖</text></g>
+  <g transform="translate(590,210)"><rect class="box" width="220" height="180" rx="24"/><text x="110" y="54" text-anchor="middle" class="t n">3</text><text x="110" y="105" text-anchor="middle" class="t p">目标 IP 迁移重构</text></g>
+  <g transform="translate(850,210)"><rect class="box" width="220" height="180" rx="24"/><text x="110" y="54" text-anchor="middle" class="t n">4</text><text x="110" y="105" text-anchor="middle" class="t p">Story 人工确认</text></g>
+  <g transform="translate(1110,210)"><rect class="box" width="220" height="180" rx="24"/><text x="110" y="54" text-anchor="middle" class="t n">5</text><text x="110" y="105" text-anchor="middle" class="t p">分集设计</text></g>
+  <g transform="translate(1370,210)"><rect class="box" width="160" height="180" rx="24"/><text x="80" y="54" text-anchor="middle" class="t n">6</text><text x="80" y="105" text-anchor="middle" class="t p">正式剧本</text></g>
+  <path d="M290 300 L330 300 M550 300 L590 300 M810 300 L850 300 M1070 300 L1110 300 M1330 300 L1370 300" stroke="#5A62FF" stroke-width="6" stroke-linecap="round"/>
+  <path d="M1450 410 C1450 470 1450 500 1360 500 L210 500 C120 500 120 530 120 560" fill="none" stroke="#7C8CFF" stroke-width="4" stroke-dasharray="10 10"/>
+  <g transform="translate(100,560)"><rect class="box" width="280" height="180" rx="24"/><text x="140" y="54" text-anchor="middle" class="t n">7</text><text x="140" y="96" text-anchor="middle" class="t p">导演 / 资产 / 声音</text><text x="140" y="130" text-anchor="middle" class="t p">/ 镜头设计</text></g>
+  <g transform="translate(440,560)"><rect class="box" width="240" height="180" rx="24"/><text x="120" y="54" text-anchor="middle" class="t n">8</text><text x="120" y="105" text-anchor="middle" class="t p">生成前独立审查</text></g>
+  <g transform="translate(740,560)"><rect class="box" width="220" height="180" rx="24"/><text x="110" y="54" text-anchor="middle" class="t n">9</text><text x="110" y="105" text-anchor="middle" class="t p">预告样片验证</text></g>
+  <g transform="translate(1020,560)"><rect class="box" width="220" height="180" rx="24"/><text x="110" y="54" text-anchor="middle" class="t n">10</text><text x="110" y="105" text-anchor="middle" class="t p">批量生成</text></g>
+  <g transform="translate(1300,560)"><rect class="box" width="230" height="180" rx="24"/><text x="115" y="54" text-anchor="middle" class="t n">11</text><text x="115" y="96" text-anchor="middle" class="t p">Timeline</text><text x="115" y="130" text-anchor="middle" class="t p">→ final.mp4</text></g>
+  <path d="M380 650 L440 650 M680 650 L740 650 M960 650 L1020 650 M1240 650 L1300 650" stroke="#5A62FF" stroke-width="6" stroke-linecap="round"/>
+  <rect x="350" y="790" width="900" height="44" rx="22" fill="#FFF" stroke="#D6E3FF"/><text x="530" y="818" text-anchor="middle" class="t tag" fill="#2563EB">质量优先</text><text x="800" y="818" text-anchor="middle" class="t tag" fill="#059669">可复核</text><text x="1060" y="818" text-anchor="middle" class="t tag" fill="#7C3AED">可规模化</text>
+</svg>
