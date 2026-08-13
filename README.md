@@ -20,6 +20,10 @@ StoryIP Forge 面向“授权小说 × 目标 IP”的内容改编场景。目�
 
 > 核心原则：如果移除目标 IP 后关键剧情几乎不变，那通常只是换皮，不是有效的 IP 融合。
 
+<p align="center">
+  <img src="docs/images/hero-workflow.svg" alt="StoryIP Forge overview" width="100%" />
+</p>
+
 ## 核心工作流
 
 ```mermaid
@@ -38,11 +42,21 @@ flowchart TD
   L --> M{Final Review}
 ```
 
+<p align="center">
+  <img src="docs/images/core-workflow.svg" alt="StoryIP Forge core workflow" width="100%" />
+</p>
+
 固定语义权威链：
 
 ```text
 story.md → episode.md + screenplay.md → shots.jsonl → timeline.yaml → final.mp4
 ```
+
+## 系统架构
+
+<p align="center">
+  <img src="docs/images/system-architecture.svg" alt="StoryIP Forge system architecture" width="100%" />
+</p>
 
 ## 设计原则
 
