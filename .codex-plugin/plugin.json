@@ -1,0 +1,48 @@
+{
+  "name": "storyip-forge",
+  "version": "0.17.0",
+  "description": "Quality-first Codex workflow for turning licensed novels and target-IP knowledge/assets into reviewable AI motion-comic and short-video production packages.",
+  "author": {
+    "name": "StoryIP Forge Contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "novel-adaptation",
+    "licensed-ip",
+    "ai-drama",
+    "motion-comic",
+    "story-adaptation",
+    "video-generation",
+    "codex-skills"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "StoryIP Forge",
+    "shortDescription": "授权小说 × 目标 IP 的 AI 漫剧质量优先生产工作流",
+    "longDescription": "用固定权威链、最小上下文、单一Owner和可验证生成路线，把授权小说迁移到游戏、动漫、影视、品牌角色或原创共享世界观等目标IP，并生产AI漫剧/短视频。",
+    "developerName": "StoryIP Forge Contributors",
+    "category": "Creativity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "初始化一个小说 × IP 漫剧项目",
+      "继续当前小说 × IP 项目",
+      "检查当前项目状态和下一步",
+      "把这本授权小说全文迁移成目标IP下的改编总纲",
+      "把已确认改编总纲拆成第一集单集契约",
+      "绑定目标IP的知识索引、官方/授权素材清单和生产资产注册表",
+      "把第一集单集契约写成正式可表演剧本",
+      "为第一集做导演设计，只处理表演、调度、动作节奏和生产需求",
+      "为第一集做资产设计，优先绑定目标IP官方/授权素材和已有稳定资产，不足时最小补强",
+      "为第一集做声音设计，只对必须受控的对白生成/绑定受控音频，其余优先原生声音",
+      "把第一集正式剧本、导演、资产和声音结果收口成唯一 shots.jsonl，按风险添加必要控制材料",
+      "用当前 shots.jsonl 做生成预检并执行正式预告样片；已有 job_id 时恢复原任务，不重复提交",
+      "审看第一集生成候选，按KEEP/TRIM/REDO选择素材，写唯一timeline.yaml并合成final.mp4",
+      "独立审查当前改编总纲，只报告问题、证据、Owner和最小修复结果，不直接改写总纲",
+      "对第一集做生成前独立审查，检查导演、资产、声音、镜头和Provider预检是否足以进入正式样片",
+      "检查第一集最终成片，先做技术检查和实际媒体抽帧，再独立判断观众可见问题并路由给正确Owner"
+    ]
+  }
+}
