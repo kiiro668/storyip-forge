@@ -58,6 +58,12 @@ story.md → episode.md + screenplay.md → shots.jsonl → timeline.yaml → fi
   <img src="docs/images/system-architecture.svg" alt="StoryIP Forge system architecture" width="100%" />
 </p>
 
+### V0.18 媒体工作台草案
+
+当前下一步聚焦角色 / 场景候选媒体的最小生产闭环：优先使用宿主内置生图能力；发生技术调用失败时由用户选择手工会员网页生成或 InvokeAI External Model API；无论来源如何，候选图统一进入 InvokeAI Gallery / Board，以 `Star = APPROVED` 作为唯一人工审批动作，再同步到 StoryIP Asset Registry。
+
+V0.18 暂不引入 ComfyUI、SwarmUI、LiteLLM、n8n/Activepieces，也不自研 Gallery、审批 UI 或第三方图片 Provider SDK。详细合同见 [`docs/invokeai-media-workbench.md`](docs/invokeai-media-workbench.md)。
+
 ## 设计原则
 
 - **全文覆盖优先**：先证明故事事实覆盖，再做迁移和改编。
